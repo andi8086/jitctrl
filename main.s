@@ -42,6 +42,10 @@
 ;	Arduino		     'A'		'A'
 ;	TestBoard	'f'       F-Lo   F-Hi
 ;
+;	F = 16M/(2*f_wanted)-1
+;	i.e. 7 for 1 MHz, 79 for 100 kHz
+;	you want to be << 19.2 kHz, i.e. 150 Hz with F=53332
+;
 ;	'r'	read current timer value
 ;
 ;	send-scheme:
